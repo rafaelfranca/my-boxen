@@ -1,0 +1,44 @@
+---
+"git::global_excludesfile": "~/.gitignore"
+
+boxen::personal::osx_apps:
+  - alfred
+  - appcleaner
+  - bartender
+  - caffeine
+  - chromecast
+  - divvy
+  - dropbox
+  - firefox
+  - flux
+  - google-chrome
+  - google-drive
+  - iterm2
+  - lastfm
+  - licecap
+  - limechat
+  - moneywell
+  - onepassword
+  - plex-media-server
+  - propane
+  - skype
+  - transmission
+  - tvshows
+  - vlc
+  - xld
+  - omnidisksweeper
+  - github
+
+boxen::personal::includes:
+  - boxen::development
+  - bash
+  - bash::completion
+  - macvim
+  - osx::global::disable_key_press_and_hold
+  - osx::global::enable_keyboard_control_access
+  - osx::global::expand_save_dialog
+  - osx::dock::autohide
+  - osx::disable_app_quarantine
+  - osx::no_network_dsstores
+  - osx::keyboard::capslock_to_control
+  - osx::finder::enable_quicklook_text_selection
