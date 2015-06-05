@@ -9,16 +9,6 @@ GITHUBTARBALL
     brewcask (0.0.6)
 
 GITHUBTARBALL
-  remote: boxen/puppet-dnsmasq
-  specs:
-    dnsmasq (2.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-foreman
-  specs:
-    foreman (1.2.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
     gcc (2.2.1)
@@ -29,11 +19,6 @@ GITHUBTARBALL
     git (2.7.9)
 
 GITHUBTARBALL
-  remote: boxen/puppet-go
-  specs:
-    go (2.1.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.12.0)
@@ -42,31 +27,6 @@ GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.4.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-nginx
-  specs:
-    nginx (1.4.5)
-
-GITHUBTARBALL
-  remote: boxen/puppet-nodejs
-  specs:
-    nodejs (4.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-openssl
-  specs:
-    openssl (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-phantomjs
-  specs:
-    phantomjs (2.4.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-pkgconfig
-  specs:
-    pkgconfig (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -84,19 +44,14 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-xquartz
-  specs:
-    xquartz (1.2.1)
-
-GITHUBTARBALL
-  remote: puppetlabs/puppetlabs-inifile
-  specs:
-    inifile (1.1.1)
-
-GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
-    stdlib (4.2.1)
+    stdlib (4.6.0)
+
+GITHUBTARBALL
+  remote: rafaelfranca/puppetlabs-inifile
+  specs:
+    inifile (0.10.0)
 
 GITHUBTARBALL
   remote: ripienaar/puppet-module-data
@@ -106,23 +61,14 @@ GITHUBTARBALL
 DEPENDENCIES
   boxen (= 3.10.4)
   brewcask (= 0.0.6)
-  dnsmasq (= 2.0.1)
-  foreman (= 1.2.0)
   gcc (= 2.2.1)
   git (= 2.7.9)
-  go (= 2.1.0)
   homebrew (= 1.12.0)
   hub (= 1.4.1)
-  inifile (= 1.1.1)
+  inifile (= 0.10.0)
   module_data (= 0.0.3)
-  nginx (= 1.4.5)
-  nodejs (= 4.0.1)
-  openssl (= 1.0.0)
-  phantomjs (= 2.4.0)
-  pkgconfig (= 1.0.0)
   repository (= 2.4.1)
   ruby (= 8.5.2)
-  stdlib (= 4.2.1)
+  stdlib (= 4.6.0)
   sudo (= 1.0.0)
-  xquartz (= 1.2.1)
 
