@@ -28,6 +28,7 @@ boxen::personal::osx_apps:
   - xld
   - omnidisksweeper
   - github
+  - viscosity
 
 boxen::personal::includes:
   - boxen::development
