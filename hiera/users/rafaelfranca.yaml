@@ -29,6 +29,7 @@ boxen::personal::osx_apps:
   - omnidisksweeper
   - github
   - viscosity
+  - slack
 
 boxen::personal::includes:
   - boxen::development
