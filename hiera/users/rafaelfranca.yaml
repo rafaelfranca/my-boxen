@@ -35,6 +35,7 @@ boxen::personal::includes:
   - bash
   - bash::completion
   - macvim
+  - rails_contributor
   - osx::global::disable_key_press_and_hold
   - osx::global::enable_keyboard_control_access
   - osx::global::expand_save_dialog
