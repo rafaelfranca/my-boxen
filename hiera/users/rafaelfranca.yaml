@@ -30,6 +30,7 @@ boxen::personal::osx_apps:
   - github
   - viscosity
   - slack
+  - screenhero
 
 boxen::personal::includes:
   - boxen::development
