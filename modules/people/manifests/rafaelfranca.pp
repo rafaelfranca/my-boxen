@@ -27,4 +27,6 @@ class people::rafaelfranca {
     'push.default':
       value => 'current';
   }
+
+  nodejs::version { 'iojs-3.0.0': }
 }

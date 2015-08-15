@@ -55,3 +55,4 @@ github "rails_contributor", "1.3.3", :repo => "plataformatec/puppet-rails_contri
 github "postgresql",        "4.0.1"
 github "mysql",             "2.1.2"
 github "sysctl",            "1.0.1"
+github "nodejs",            "5.0.0"
