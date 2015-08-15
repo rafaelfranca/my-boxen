@@ -29,4 +29,9 @@ class people::rafaelfranca {
   }
 
   nodejs::version { 'iojs-3.0.0': }
+
+  npm_module { 'react-native-cli for all nodes':
+    module       => 'react-native-cli',
+    node_version => '*',
+  }
 }

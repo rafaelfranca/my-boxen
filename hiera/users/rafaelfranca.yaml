@@ -46,3 +46,7 @@ boxen::personal::includes:
   - osx::no_network_dsstores
   - osx::keyboard::capslock_to_control
   - osx::finder::enable_quicklook_text_selection
+
+boxen::personal::homebrew_packages:
+  - watchman
+  - flow
