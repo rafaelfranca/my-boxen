@@ -34,4 +34,10 @@ class people::rafaelfranca {
     module       => 'react-native-cli',
     node_version => '*',
   }
+
+  include python::virtualenvwrapper
+
+  python::mkvirtualenv{ 'hightfive':
+    project_dir => "${::boxen_srcdir}/rails/rails-bot"
+  }
 }
