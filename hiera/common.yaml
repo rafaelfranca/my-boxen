@@ -1,2 +1,8 @@
 ---
 "nodejs::build::ensure": "295e0d6819c53e80ed128b5baf1a8e5ec5620a7e"
+"ruby::build::ensure": "v20150818"
+"rails_contributor::ruby_versions":
+  - 1.9.3
+  - 2.0.0
+  - 2.1.7
+  - 2.2.3

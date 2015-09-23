@@ -61,8 +61,9 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
-  # default ruby versions
-  ruby::version { '2.2.2': }
+  class { 'ruby::global':
+    version => '2.2.3'
+  }
 
   # common, useful packages
   package {
