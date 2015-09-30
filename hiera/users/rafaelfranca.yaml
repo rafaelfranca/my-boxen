@@ -50,3 +50,4 @@ boxen::personal::includes:
 boxen::personal::homebrew_packages:
   - watchman
   - flow
+  - ctags
